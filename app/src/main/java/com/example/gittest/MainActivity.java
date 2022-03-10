@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         activityMainBinding.btn1.setOnClickListener(view -> Toast.makeText(MainActivity.this, "弹框1", Toast.LENGTH_SHORT).show());
+        activityMainBinding.btn2.setOnClickListener(view -> Toast.makeText(MainActivity.this, "弹框2", Toast.LENGTH_SHORT).show());
     }
 }
